@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homesmart</title>
+  </head>
+
+  <body
+    class="mx-auto max-w-[2000px] text-neutral-900 bg-white dark:bg-neutral-800 dark:text-neutral-200"
+  >
+    <nav class="mx-auto p-4 bg-amber-400">
+      <div class="container mx-auto flex justify-between items-center">
+        <a
+          href="/"
+          aria-label="Go to home"
+          class="focus:outline-none rounded-sm focus-visible:ring-4 ring-neutral-900 ring-offset-4 ring-offset-amber-400 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-9 z-50 hover:opacity-75 transition-opacity"
+        >
+          <img
+            src="assets/logo.svg "
+            alt="Home Smart Logo"
+            width="200"
+            class="w-48 md:w-64 lg:w-72"
+          />
+        </a>
+        <button
+          id="menu"
+          aria-expanded="false"
+          aria-label="Open Menu"
+          class="lg:hidden text-neutral-900 hover:text-neutral-600 transition-colors focus:outline-none focus-visible:ring-4 ring-neutral-900 ring-offset-4 ring-offset-amber-400 rounded-sm"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-8 h-8"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+        <div
+          role="menubar"
+          class="
+          hidden
+          flex
+           flex-col
+            items-center  
+            gap-4 absolute 
+            top-16 left-0 
+            right-0 text-center 
+            shadow-xl text-lg p-6
+             bg-amber-400
+             
+             lg:static
+             lg:flex
+             lg:flex-row
+             lg:justify-between
+             lg:shadow-none
+             lg:w-full
+          
+             
+             "
+        >
+          <a
+            role="menuitem"
+            class="py-1 px-6  hover:shadow-none  dark:text-neutral-900 text-neutral-900 hover:text-neutral-600 transition-colors focus:outline-none focus-visible:ring-4 rounded-sm ring-neutral-900 ring-offset-4 ring-offset-amber-400"
+            href=""
+            >Home</a
+          >
+          <a
+            role="menuitem"
+            class="py-1 px-6  hover:shadow-none  dark:text-neutral-900 text-neutral-900 hover:text-neutral-600 transition-colors focus:outline-none focus-visible:ring-4 rounded-sm ring-neutral-900 ring-offset-4 ring-offset-amber-400"
+            href=""
+            >Contact</a
+          >
+          <a
+            role="menuitem"
+            class="py-1 px-6 lg:ml-auto hover:shadow-none  dark:text-neutral-900 text-neutral-900 hover:text-neutral-600 transition-colors focus:outline-none focus-visible:ring-4 rounded-sm ring-neutral-900 ring-offset-4 ring-offset-amber-400"
+            href=""
+            >Login</a
+          >
+          <a
+            role="menuitem"
+            class="
+            lg:shadow-none
+            py-1 px-6 rounded-md  bg-teal-900 shadow-xl hover:shadow-none transition-shadow dark:text-neutral-900 text-white hover:text-neutral-200  focus:outline-none focus-visible:ring-4 ring-neutral-900 ring-offset-4 ring-offset-amber-400"
+            href=""
+            >Sign up</a
+          >
+        </div>
+      </div>
+    </nav>
+    <header class="
+    reletive pt-16 md:pt-24 lg:pt-48 ">
+      <div 
+      class="-z-10 
+      absolute 
+      inset-0 
+      bg-gradient-to-b
+       from-amber-400
+        to-amber-600
+        bottom-8
+        md:bottom-24
+        xl:bottom-32
+        "
+      ></div>
+      <div class="container grid grid-rows-1 mx-auto place-items-end">
+        <img src="./assets/couch.png" alt="couch" 
+        class="row-start-1 row-end-2 col-start-1 col-end-1 mx-auto">
+        <img src="./assets/app.svg" alt="app" class="
+        w-40
+        sm:52
+        md:w-64
+        lg:w-72
+
+        row-start-1 row-end-2 col-start-1 col-end-1 mx-auto">
+      </div>
+    </header>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
