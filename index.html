@@ -147,6 +147,7 @@
     md:gap-24
     lg:gap-32
     px-8
+    overflow-hidden
     
     "
     >
@@ -249,7 +250,7 @@
 
     <div
     class="
-   grid
+    grid
     justify-items-center
     gap-4
     md:flex-1
@@ -258,7 +259,7 @@
     >
       <div 
       class="
-      border-8
+       border-8
        border-amber-400 
        rounded-full
        p-4
@@ -284,7 +285,7 @@
     >
       <div 
       class="
-      border-8
+       border-8
        border-amber-400 
        rounded-full
        p-4
@@ -299,19 +300,26 @@
     </div>
     </div>
   </section>
-  <section id="parnters" aria-labelledby="partners">
+  <section  aria-labelledby="partners"
+  class="
+  grid 
+  gap-8
+  justify-center
+  place-items-center
+  text-center
+
+  "
+  >
     <div
     class="
-    container
-    mx-auto
     grid
-    place-items-center
-    gap-12
+    gap-4
     justfiy-center
 
     "
     >
       <h2
+      id="parnters"
       class="text-3xl font-bold text-amber-400 "
       >Our partners</h2>
       <p
@@ -322,6 +330,8 @@
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error iure cupiditate adipisci saepe consequatur illum deleniti aperiam incidunt nemo minus maxime qui, voluptatem expedita enim, culpa commodi unde nostrum? Enim illum quibusdam quasi dolore porro placeat natus explicabo ab?
       </p>
+    </div>
+
       <div
       class="
       flex
@@ -339,7 +349,100 @@
         <div class="rounded-md bg-white dark:bg-neutral-400 shadow-md lg:shadow-xl p-4 "><img class="w-16 h-16" src="./assets/partner5.svg" alt="partner5"></div>
         <div class="rounded-md bg-white dark:bg-neutral-400 shadow-md lg:shadow-xl p-4 "><img class="w-16 h-16" src="./assets/partner6.svg" alt="partner6"></div>
       </div>
+  </section>
+  <section labeledby="home" class="
+  relative
+  
+  ">
+    <div
+    class="
+    flex 
+    flex-wrap-reverse 
+    gap-8
+    justify-center
+    "
+    >
+
+      <div
+      class="
+      flex
+      flex-col
+      flex-wrap
+      items-start
+      lg:justify-center
+      gap-6
+
+      "
+      >
+      <div
+      class="flex flex-col gap-2
+      items-start
+      "
+      >
+        <h2 id="home"
+        class="text-4xl font-bold"
+        >Relax, you're home!</h2>
+        <p
+        class="max-w-md"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, adipisci doloremque provident aspernatur vitae optio necessitatibus dolorum ipsa. Perspiciatis vel facilis rerum neque. Reiciendis doloribus minus expedita molestias. Modi, quidem?
+        </p>
+      </div>
+        <a href="#"
+        class="
+        bg-amber-400 px-4
+         py-2
+         rounded-md
+         focus:outline-none
+         focus-visible:ring-4
+         ring-neutral-900
+         dark:ring-amber-400
+         ring-offset-4
+         ring-offset-white
+         dark:ring-offset-neutral-800
+         dark:text-neutral-900
+         shadow-md
+         hover:shadow-none
+         transition-shadow
+         "
+        >
+          Sign Up
+        </a>
+      </div>
+
+      <img src="./assets/table.png" alt="Table">
+      <div 
+      class="
+      absolute
+      -z-10
+      md:border-8
+      border-amber-400
+      rounded-full
+      aspect-square
+      -right-32
+      -bottom-6
+      md:w-64
+      lg:w-96
+      xl:max-w-lg
+
+      "
+      ></div>
     </div>
+    <div
+    class="
+    bg-teal-600
+     h-24 
+     xl:h-48
+     mt-12
+     -mx-8 
+     w-screen
+     xl:absolute
+     xl:mt-0
+     
+     -bottom-8
+     -z-10
+     "
+    ></div>
   </section>
     </main>
     <script type="module" src="/main.js"></script>
