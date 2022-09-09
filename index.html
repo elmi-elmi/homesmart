@@ -95,7 +95,7 @@
              bg-teal-900 shadow-xl 
              hover:shadow-none 
              transition-shadow
-              dark:text-neutral-900
+              dark:text-neutral-100
                text-white
                 hover:text-neutral-200  
                 focus:outline-none 
@@ -321,7 +321,7 @@
       <h2
       id="parnters"
       class="text-3xl font-bold text-amber-400 "
-      >Our partners</h2>
+      >Our Partners</h2>
       <p
       class="
       w-full
@@ -430,7 +430,7 @@
     </div>
     <div
     class="
-    bg-teal-600
+    bg-teal-900
      h-24 
      xl:h-48
      mt-12
@@ -438,13 +438,221 @@
      w-screen
      xl:absolute
      xl:mt-0
-     
      -bottom-8
      -z-10
      "
     ></div>
   </section>
+
     </main>
+    <section aria-labeledby="contact"
+    class=" container flex flex-wrap  mx-auto justify-center gap-12 items-start "
+    >
+    
+    <div class=" flex flex-col justify-center items-center ">
+      <img src="./assets/lamp.png" alt="lamp">
+      <a href="#"
+      class="
+      py-2
+      px-6
+      my-12
+      mx-auto
+      flex
+      gap-4
+      bg-amber-400
+      shadow-xl
+      hover:shadow-none
+      transition-shadow
+      rounded-md
+      focus:outline-none
+      focus-visible:ring-4
+      ring-neutral-900
+      dark:ring-amber-400
+      ring-offset-4
+      ring-offset-white
+      dark:ring-offset-neutral-800
+      dark:text-neutral-900
+      
+  
+      "
+      >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+      </svg>
+      <span>Download the App</span>
+    </a>
+    <img src="./assets/app.svg" alt="app" 
+    width="240"
+    class="hidden 
+    md:block
+    drop-shadow-xl
+    " 
+    
+    >
+    </div>
+    <form class="
+    p-6
+    flex 
+    flex-col 
+    gap-8
+    border-4
+     border-neutral-900
+     md:my-12
+     lg:my-16
+     ">
+      <h2 id="contact" class="text-xl font-bold">Let's Connect</h2>
+      <div class="relative">
+      <input type="text" id="name" placeholder="YOUR NAME"
+      class="
+      peer
+      w-full
+      border-4
+      rounded-md
+      border-amber-400
+      bg-white
+      dark:bg-amber-400
+      
+      focus:border-amber-400
+      focus:ring-amber-400
+      focus:outline-none
+      dark:focus:ring-offset-1
+      dark:text-neutral-900
+      placeholder-transparent
+      "
+      >
+      <label for="name"
+      class="
+      text-sm
+      text-neutral-500
+      font-bold
+      dark:text-neutral-400
+      absolute
+      -top-4
+      left-2
+      -translate-y-1/2
+      uppercase
+      transition-all
+      peer-placeholder-shown:top-1/2
+      peer-placeholder-shown:left-2
+      peer-placeholder-shown:text-neutral-900
+      dark:peer-placeholder-shown:text-white
+      peer-focus:-top-4
+      peer-focus:left-2
+      "
+      >your name</label>
+    </div>
+<div class="relative">
+      <input type="text" id="email" placeholder="YOUR EMAIL"
+      class="
+      peer
+      w-full
+      border-4
+      rounded-md
+      border-amber-400
+      bg-white
+      dark:bg-amber-400
+      
+      focus:border-amber-400
+      focus:ring-amber-400
+      focus:outline-none
+      dark:focus:ring-offset-1
+      dark:text-neutral-900
+      placeholder-transparent
+      "
+      > 
+      <label for="email"
+      class="
+      text-sm
+      text-neutral-500
+      font-bold
+      dark:text-neutral-400
+      absolute
+      -top-4
+      left-2
+      -translate-y-1/2
+      uppercase
+      transition-all
+      peer-placeholder-shown:top-1/2
+      peer-placeholder-shown:left-2
+      peer-placeholder-shown:text-neutral-900
+      dark:peer-placeholder-shown:text-white
+      peer-focus:-top-4
+      peer-focus:left-2
+      "
+      >YOUR EMAIL</label>
+    </div>
+    <div class="relative">
+      <textarea
+       placeholder="How can we help?" name="textarea" id="textarea" cols="30" rows="10"
+       class="
+       peer
+    resize-none
+    w-full
+      border-4
+      rounded-md
+      border-amber-400
+      bg-white
+      dark:bg-amber-400
+      
+      focus:border-amber-400
+      focus:ring-amber-400
+      focus:outline-none
+      dark:focus:ring-offset-1
+      dark:text-neutral-900
+      placeholder-transparent
+       
+       "
+       ></textarea>
+       <label for="textarea"
+       class="
+       uppercase
+       text-sm
+       font-bold
+       absolute
+       -translate-y-1/2
+       -top-4
+       left-2
+       text-neutral-500
+dark:text-neutral-400
+       transition-all
+       peer-placeholder-shown:top-6
+       peer-placeholder-shown:left-2
+       peer-placeholder-shown:text-neutral-900
+      dark:peer-placeholder-shown:text-white
+       peer-focus:-top-4
+       peer-focus:left-2
+       
+       
+       "
+       >how can we help?</label>
+      </div>
+      <a href="#"
+      class="
+      text-white
+      dark:text-neutral-900
+      mr-auto
+      bg-teal-900 
+      dark:bg-amber-400 
+      px-4
+       py-2
+       rounded-md
+       focus:outline-none
+       focus-visible:ring-4
+       ring-neutral-900
+       dark:ring-amber-400
+       ring-offset-4
+       ring-offset-white
+       dark:ring-offset-neutral-800
+       shadow-md
+       hover:shadow-none
+       transition-shadow
+       "
+      >
+        Sign Up
+      </a>
+    </form>
+  
+    </section>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
